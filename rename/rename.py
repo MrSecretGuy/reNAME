@@ -34,6 +34,7 @@ def batch_rename(path, ext, static_name):
             # Rename the file
             os.rename(os.path.join(path, filename), os.path.join(path, new_name))
             count += 1
+    #Print out the amount of files renamed
     print(f"Renamed {count} files!")
 
 # Print the ASCII art logo
